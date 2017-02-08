@@ -1,8 +1,8 @@
 <?php
 	session_start();
-	include 'serv.php';
+	include 'sql/conn.php';
 	if(isset($_SESSION['user'])){
-	echo '<script> window.location="panel.php"; </script>';
+	echo '<script> window.location="home.php"; </script>';
 	}
 ?>
 <!DOCTYPE html>
